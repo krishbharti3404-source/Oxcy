@@ -32,7 +32,7 @@ async def start_pm(client, message: Message, _):
         name = message.text.split(None, 1)[1]
         if name[0:4] == "help":
             keyboard = help_pannel(_)
-            await message.reply_sticker("CAACAgUAAxkBAAEQI1RlTLnRAy4h9lOS6jgS5FYsQoruOAAC1gMAAg6ryVcldUr_lhPexzME")
+            await message.reply_sticker("CAACAgUAAyEFAATAaxXrAAP9aQPAkQABhzpjCoDWA29txJ8D0z27AAJVHgAC0LGoVwy-XYLwjWvgHgQ")
             return await message.reply_photo(
                 photo=config.START_IMG_URL,
                 caption=_["help_1"].format(config.SUPPORT_CHAT),
@@ -87,37 +87,37 @@ async def start_pm(client, message: Message, _):
 
         try:
             out = private_panel(_)
-            lol = await message.reply_text("𝐖𝐞𝐥𝐜𝐨𝐦𝐞 𝐁𝐚𝐛𝐲 ꨄ︎ {}.. ❣️".format(message.from_user.mention))
-            await lol.edit_text("𝐖𝐞𝐥𝐜𝐨𝐦𝐞 𝐁𝐚𝐛𝐲 ꨄ {}.. 🥳".format(message.from_user.mention))
-            await lol.edit_text("𝐖𝐞𝐥𝐜𝐨𝐦𝐞 𝐁𝐚𝐛𝐲 ꨄ {}.. 💥".format(message.from_user.mention))
-            await lol.edit_text("𝐖𝐞𝐥𝐜𝐨𝐦𝐞 𝐁𝐚𝐛𝐲 ꨄ {}.. 🤩".format(message.from_user.mention))
-            await lol.edit_text("𝐖𝐞𝐥𝐜𝐨𝐦𝐞 𝐁𝐚𝐛𝐲 ꨄ {}.. 💌".format(message.from_user.mention))
-            await lol.edit_text("𝐖𝐞𝐥𝐜𝐨𝐦𝐞 𝐁𝐚𝐛𝐲 ꨄ {}.. 💞".format(message.from_user.mention))
+            lol = await message.reply_text("𝐖𝐞𝐥𝐜𝐨𝐦𝐞 𝐁𝐚𝐛𝐲 ♡ {}.. ❣️".format(message.from_user.mention))
+            await lol.edit_text("𝐖𝐞𝐥𝐜𝐨𝐦𝐞 𝐁𝐚𝐛𝐲 ♡ {}.. 🥳".format(message.from_user.mention))
+            await lol.edit_text("𝐖𝐞𝐥𝐜𝐨𝐦𝐞 𝐁𝐚𝐛𝐲 ♡ {}.. 💥".format(message.from_user.mention))
+            await lol.edit_text("𝐖𝐞𝐥𝐜𝐨𝐦𝐞 𝐁𝐚𝐛𝐲 ♡ {}.. 🤩".format(message.from_user.mention))
+            await lol.edit_text("𝐖𝐞𝐥𝐜𝐨𝐦𝐞 𝐁𝐚𝐛𝐲 ♡ {}.. 💌".format(message.from_user.mention))
+            await lol.edit_text("𝐖𝐞𝐥𝐜𝐨𝐦𝐞 𝐁𝐚𝐛𝐲 ♡ {}.. 💞".format(message.from_user.mention))
                
             await lol.delete()
-            lols = await message.reply_text("**⚡️ѕ**")
+            lols = await message.reply_text("**💐ѕ**")
             await asyncio.sleep(0.1)
-            await lols.edit_text("⚡ѕт")        
+            await lols.edit_text("**💐ѕт**")        
             await asyncio.sleep(0.1)
-            await lols.edit_text("**⚡ѕтα**")
+            await lols.edit_text("**💐ѕтα**")
             await asyncio.sleep(0.1)
-            await lols.edit_text("**⚡ѕтαя**")
+            await lols.edit_text("**💐ѕтαя**")
             await asyncio.sleep(0.1)
-            await lols.edit_text("**⚡ѕтαят**")
+            await lols.edit_text("**💐ѕтαят**")
             await asyncio.sleep(0.1)
-            await lols.edit_text("**⚡ѕтαятι**")
+            await lols.edit_text("**💐ѕтαятι**")
             await asyncio.sleep(0.1)
-            await lols.edit_text("**⚡ѕтαятιи**")
+            await lols.edit_text("**💐ѕтαятιи**")
             await asyncio.sleep(0.1)
-            await lols.edit_text("**⚡ѕтαятιиg**")
+            await lols.edit_text("**💐ѕтαятιиg**")
             await asyncio.sleep(0.1)
-            await lols.edit_text("**⚡ѕтαятιиg.**")
+            await lols.edit_text("**💐ѕтαятιиg.**")
 
-            await lols.edit_text("**⚡ѕтαятιиg....**")
+            await lols.edit_text("**💐ѕтαятιиg....**")
 
-            await lols.edit_text("**⚡ѕтαятιиg.**")
-            await lols.edit_text("**⚡ѕтαятιиg....**")
-            m = await message.reply_sticker("CAACAgUAAxkBAAEQI1BlTLmx7PtOO3aPNshEU2gCy7iAFgACNQUAApqMuVeA6eJ50VbvmDME")
+            await lols.edit_text("**💐ѕтαятιиg.**")
+            await lols.edit_text("**💐ѕтαятιиg....**")
+            m = await message.reply_sticker("CAACAgUAAyEFAATAaxXrAAIBAAFpA8HsEu7r1Tv7CLg1IiYc-IcjfwACpRoAAhdrqVc8ab1LQLfsaR4E")
             if message.chat.photo:
 
                 userss_photo = await app.download_media(
