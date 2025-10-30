@@ -6,7 +6,7 @@ services:
     buildCommand: pip install -U -r requirements.txt
     startCommand: python3 server.py & python3 -m FADEDMUSIC 
  repo:
-https://github.com/Destroyerofworldd/Destroyer_music   
+https://github.com/Destroyerofworldd/FadedXMusic  
     branch: master
     envVars:
       - key: SUDO_USERS 
