@@ -4,7 +4,7 @@ services:
     name: FADEDMUSIC
     env: python
     buildCommand: pip install -U -r requirements.txt
-    startCommand: python3 server.py & python3 -m FADEDMUSIC 
+    startCommand: python3 server.py & python3 -m BrandrdXMusic 
  repo:
 https://github.com/Destroyerofworldd/FadedXMusic  
     branch: master
