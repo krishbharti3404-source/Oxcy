@@ -24,7 +24,7 @@
 GO TO [RELOAD.PY](https://github.com/Destroyerofworldd/FadedXMusic/blob/main/FadedXMusic/plugins/tools/reload.py) THEN CHANGE MY ID NUMBER 
 
 </p>
-ʀᴀᴜsʜᴀɴ
+. 
 <p align="center">
 <b>𝗗𝗘𝗣𝗟𝗢𝗬𝗠𝗘𝗡𝗧 𝗠𝗘𝗧𝗛𝗢𝗗𝗦</b>
 </p>
