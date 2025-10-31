@@ -12,6 +12,17 @@ from BrandrdXMusic.plugins import ALL_MODULES
 from BrandrdXMusic.utils.database import get_banned_users, get_gbanned
 from config import BANNED_USERS
 
+# --- UptimeRobot Web Server ---
+web_app = Flask(__name__)
+
+@web_app.route('/')
+def hello_world():
+    return 'Bot is alive!'
+
+def run_web_server():
+    port = int(os.environ.get("PORT", 8080))
+    web_app.run(host='0.0.0.0', port=port)
+# ------------------------------
 
 async def init():
     if (
