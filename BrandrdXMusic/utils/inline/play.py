@@ -68,7 +68,7 @@ def stream_markup_timer(_, vidid, chat_id, played, dur):
         ],
         [
             InlineKeyboardButton(text="ᴏᴡɴᴇʀ", url="https://t.me/Coffin_Ka_Bhai_Faded"),
-            InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ", url="https://t.me/YourSexyGc"),
+            InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ", url="http://TNCmeetup.t.me"),
         ],
         [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")],
     ]
@@ -86,7 +86,7 @@ def stream_markup(_, videoid, chat_id):
         ],
         [
             InlineKeyboardButton(text="ᴏᴡɴᴇʀ", url="https://t.me/Coffin_Ka_Bhai_Faded"),
-            InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ", url="https://t.me/YourSexyGc"),
+            InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ", url="http://TNCmeetup.t.me"),
         ],
         [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")],
     ]
