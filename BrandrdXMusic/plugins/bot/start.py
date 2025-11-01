@@ -124,10 +124,10 @@ async def start_pm(client, message: Message, _):
                     message.chat.photo.big_file_id,
                 )
             else:
-                userss_photo = "assets/nodp.png"
-            if userss_photo:
-                chat_photo = userss_photo
-            chat_photo = userss_photo if userss_photo else START_IMG_URL
+                START_IMG_URL = "assets/nodp.png"
+            if START_IMG_URL:
+                chat_photo = START_IMG_URL
+            chat_photo = START_IMG_URL if START_IMG_URL else START_IMG_URL
 
         except AttributeError:
             chat_photo = "assets/nodp.png"
