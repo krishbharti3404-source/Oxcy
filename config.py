@@ -19,13 +19,13 @@ MONGO_DB_URI = getenv("MONGO_DB_URI", None)
 MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", None)
 PRIVATE_BOT_MODE = getenv("PRIVATE_BOT_MODE", None)
 
-DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 17000))
+DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 999999))
 
 # Chat id of a group for logging bot's activities
-LOGGER_ID = int(getenv("LOGGER_ID", None))
+LOGGER_ID = int(getenv("LOGGER_ID", "-1003530337097"))
 
 # Get this value from @BRANDRD_ROBOT on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID", "7098739428"))
+OWNER_ID = int(getenv("OWNER_ID", "6343891024"))
 
 LOG = int(getenv("LOG", True))
 
@@ -42,15 +42,15 @@ API_KEY = getenv("API_KEY", '30DxNexGenBotsfcfad8')
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/Destroyerofworldd/FadedXMusic",
+    "https://github.com/Nobi-123/Oxcy",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/NexaMeetup")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/+TaJIybIk691hNmE1")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/veron_bots")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/adult_towm")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
@@ -67,11 +67,11 @@ SPOTIFY_CLIENT_SECRET = getenv("SPOTIFY_CLIENT_SECRET", "907c6a054c214005aeae1fd
 
 
 # Maximum limit for fetching playlist's track from youtube, spotify, apple links.
-SERVER_PLAYLIST_LIMIT = int(getenv("SERVER_PLAYLIST_LIMIT", "50"))
-PLAYLIST_FETCH_LIMIT = int(getenv("PLAYLIST_FETCH_LIMIT", "25"))
+SERVER_PLAYLIST_LIMIT = int(getenv("SERVER_PLAYLIST_LIMIT", "999"))
+PLAYLIST_FETCH_LIMIT = int(getenv("PLAYLIST_FETCH_LIMIT", "999"))
 
-SONG_DOWNLOAD_DURATION = int(getenv("SONG_DOWNLOAD_DURATION_LIMIT", "180"))
-SONG_DOWNLOAD_DURATION_LIMIT = int(getenv("SONG_DOWNLOAD_DURATION_LIMIT", "2000"))
+SONG_DOWNLOAD_DURATION = int(getenv("SONG_DOWNLOAD_DURATION_LIMIT", "999"))
+SONG_DOWNLOAD_DURATION_LIMIT = int(getenv("SONG_DOWNLOAD_DURATION_LIMIT", "999999"))
 
 # Telegram audio and video file size limit (in bytes)
 TG_AUDIO_FILESIZE_LIMIT = int(getenv("TG_AUDIO_FILESIZE_LIMIT", 104857600))
