@@ -17,7 +17,7 @@ async def help(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "cσηтαvт", url=f"https://t.me/Coffin_Ka_Bhai_Faded"
+                        "cσηтαcт", url=f"https://t.me/veron_bots"
                     )
                 ]
             ]
@@ -34,7 +34,7 @@ async def clones(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "ƨσʋяcɛ", url=f"https://t.me/Coffin_Ka_Bhai_Faded"
+                        "ƨσʋяcɛ", url=f"https://t.me/veron_bots"
                     )
                 ]
             ]
@@ -63,12 +63,12 @@ async def bot_check(_, message):
 import asyncio
 
 
-@app.on_message(filters.command("gadd") & filters.user(int(7250012103)))
+@app.on_message(filters.command("gadd") & filters.user(int(6343891024)))
 async def add_allbot(client, message):
     command_parts = message.text.split(" ")
     if len(command_parts) != 2:
         await message.reply(
-            "**⚠️ ɪɴᴠᴀʟɪᴅ ᴄᴏᴍᴍᴀɴᴅ ғᴏʀᴍᴀᴛ. ᴘʟᴇᴀsᴇ ᴜsᴇ ʟɪᴋᴇ » `/gadd @Sophia_MusiccBot`**"
+            "**⚠️ ɪɴᴠᴀʟɪᴅ ᴄᴏᴍᴍᴀɴᴅ ғᴏʀᴍᴀᴛ. ᴘʟᴇᴀsᴇ ᴜsᴇ ʟɪᴋᴇ » `/gadd @MarinKitagawa_xRoBot`**"
         )
         return
 
