@@ -53,7 +53,7 @@ async def play_commnd(
     url,
     fplay,
 ):
-    mystic = await message.reply_text(
+    mystic = await message.reply_sticker(
         _["play_2"].format(channel) if channel else random.choice(AYU)
     )
     plist_id = None
