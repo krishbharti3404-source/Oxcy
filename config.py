@@ -42,7 +42,7 @@ API_KEY = getenv("API_KEY", '30DxNexGenBotsfcfad8')
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/Nobi-123/Oxcy",
+    "https://github.com/krishbharti3404-source/Oxcy",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv(
